@@ -771,3 +771,106 @@ nav.woocommerce-MyAccount-navigation li.is-active:after {
 .urbanfashion-login-form-content {
     padding: 40px 0;
 }
+
+/* Checkout Page */
+
+.woocommerce-checkout .col-1, .woocommerce-checkout .col-2 {display: block;max-width: 100%;}
+
+.woocommerce-checkout {}
+
+.woocommerce-checkout .woocommerce-billing-fields label {
+    display: block;
+}
+
+.woocommerce-checkout .form-row {
+    width: 100%;
+    display: block;
+    float: none;
+}
+
+.woocommerce-checkout  .woocommerce-billing-fields {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.woocommerce-checkout  .woocommerce-additional-fields {margin-top: 30px;}
+
+.woocommerce {
+    padding: 40px 0;
+}
+
+.woocommerce-info {}
+
+.woocommerce .woocommerce-info {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #eee;
+    padding: 10px;
+}
+
+.woocommerce-checkout .woocommerce-privacy-policy-text {
+    margin-bottom: 30px;
+}
+
+.woocommerce-checkout button[type="submit"] {
+    background: #6e98a6;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Cart Page */
+
+
+.woocommerce-cart-form tr td.action {
+    padding: 0;
+}
+
+form.woocommerce-cart-form table td.actions {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #ddd;
+}
+
+form.woocommerce-cart-form table td.actions button {
+    background: #6e98a6;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+form.woocommerce-cart-form table td.actions .coupon button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+tr.order-total {
+    border-bottom: 1px solid #ddd;
+}
+
+table.shop_table.shop_table_responsive {
+    border-left: 1px solid #ddd;
+}
+
+form.woocommerce-cart-form table td.actions .coupon {
+    margin: 30px;
+    margin-bottom: 15px;
+}
+
+.cart-collaterals .cart_totals {
+    margin-top: 30px;
+}
+
+.wc-proceed-to-checkout a {margin-top: 30px;background: #6e98a6;display: inline-block;color: #fff;padding: 10px 30px;}
+
+form.woocommerce-cart-form table td.actions button:nth-child(2) {
+    /* background: red; */
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
