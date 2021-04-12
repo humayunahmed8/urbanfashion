@@ -83,7 +83,7 @@
 					 		</div>
 			        	</div>
 
-			        	<div class="col-xl-5 col-lg-5 col-md-2 col-2 order-3 order-lg-2 order-md-3 text-center">
+			        	<div class="col-xl-5 col-lg-5 col-md-2 col-1 order-3 order-lg-2 order-md-3 text-center">
 			        		<div class="single-sub-menu-content">
 					        	<nav id="single-page-navigation" class="main-navigation">
 						            <?php
@@ -96,7 +96,7 @@
 					        </div>
 			        	</div>
 
-			        	<div class="col-xl-5 col-lg-5 col-md-8 col-8 order-2 order-lg-3 order-md-2 text-right">
+			        	<div class="col-xl-5 col-lg-5 col-md-8 col-7 order-2 order-lg-3 order-md-2 text-right">
 			        		<div class="top-right-nav">
 
 			        			<div class="header-search-bar blog-cat-search header-search-mobile">

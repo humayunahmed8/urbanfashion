@@ -4875,6 +4875,7 @@ span.post-meta-date {
     .header-search-bar.blog-cat-search.header-search-mobile .search-container .search-form {
         right: auto;
         margin-left: 60px;
+        top: -4px;
     }
 }
 
@@ -4893,12 +4894,28 @@ span.post-meta-date {
     .header-right-avatar {
         margin-right: 20px;
     }
+    
+    .header-search-bar.blog-cat-search.header-search-mobile .search-container .search-form {
+        right: -14px;
+        left: auto;
+        top: 0;
+    }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 600px){
     .header-right-avatar {
         display: none;
     }
+    .top-right-nav a.fashion-cart {
+        margin-right: 20px;
+    }   
+    .top-right-nav{
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    
     .top-right-nav a.fashion-cart {
         margin-right: 15px;
     }
@@ -4911,12 +4928,6 @@ span.post-meta-date {
 
     .slicknav_btn {
         top: -48px;
-    }
-
-    .header-search-bar.blog-cat-search.header-search-mobile .search-container .search-form {
-        right: -14px;
-        left: auto;
-        top: 0;
     }
 }
 
@@ -5045,4 +5056,74 @@ span.post-meta-date {
 
 .header-internal {
     position: relative;
+}
+
+
+@media screen and (max-width: 767px){
+    .header-right-avatar {
+        margin-right: 30px;
+    }
+
+    .header-search-bar.blog-cat-search .search-container .search-btn {
+        height: 35px;
+        width: 35px;
+        line-height: 31px;
+    }
+
+    .header-search-bar.blog-cat-search {
+        margin-top: 4px;
+    }
+
+    .slicknav_btn {
+        top: -48px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .header-right-avatar {
+        margin-right: 20px;
+    }
+
+    .top-right-nav {padding-right: 40px;}
+}
+
+
+
+@media screen and (max-width: 580px){
+    .top-right-nav {padding-right: 60px;}
+}
+
+@media screen and (max-width: 475px){
+    .top-right-nav a.fashion-cart i span.cart-text {
+        display: none;
+    }
+
+
+    .top-right-nav a.fashion-cart span.cart-text {
+        display: none;
+    }
+
+
+    .header-search-bar.blog-cat-search {
+        margin-top: 0;
+    }
+
+    .header-search-bar.blog-cat-search.header-search-mobile {margin-right: 30px;}
+
+    .top-right-nav {
+        justify-content: center;
+    }
+
+    .top-right-nav a.fashion-cart i {
+        font-size: 24px;
+    }   
+}
+@media screen and (max-width: 400px){
+    .header-search-bar.blog-cat-search.header-search-mobile {
+        display: none;
+    }
+
+    .top-right-nav {
+        display: none;
+    }
 }
